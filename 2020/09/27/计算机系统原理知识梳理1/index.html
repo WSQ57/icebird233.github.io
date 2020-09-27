@@ -20,19 +20,21 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="最近的计算机系统与原理课程涉及到了大量计算机组成架构的知识，于是决定对这些组成进行系统化地梳理，本次更新为主要针对冯诺依曼体系下的计算机组成架构及运行过程。  模型机的硬件基本结构 一、计算机的基本组成 首先，现代计算机都是基于冯诺依曼体系下的计算机架构，即计算机由运算器、控制器、存储器、输入设备、输出设备5个基本部件组成。当代计算机的cpu通常既是运算器又是控制器。 存储器中既能存储指令又能存">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2020/03/23/hello-world/index.html">
+<meta property="og:title" content="计算机系统原理知识梳理1">
+<meta property="og:url" content="http://yoursite.com/2020/09/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861/index.html">
 <meta property="og:site_name" content="伍拾柒&#39;s blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="最近的计算机系统与原理课程涉及到了大量计算机组成架构的知识，于是决定对这些组成进行系统化地梳理，本次更新为主要针对冯诺依曼体系下的计算机组成架构及运行过程。  模型机的硬件基本结构 一、计算机的基本组成 首先，现代计算机都是基于冯诺依曼体系下的计算机架构，即计算机由运算器、控制器、存储器、输入设备、输出设备5个基本部件组成。当代计算机的cpu通常既是运算器又是控制器。 存储器中既能存储指令又能存">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-03-23T07:43:00.096Z">
-<meta property="article:modified_time" content="2020-03-23T07:43:00.096Z">
+<meta property="og:image" content="https://i.loli.net/2020/09/27/4sc2zS3pu8fe9KW.jpg">
+<meta property="article:published_time" content="2020-09-27T11:49:01.000Z">
+<meta property="article:modified_time" content="2020-09-27T12:32:34.955Z">
 <meta property="article:author" content="Wang Qi">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/09/27/4sc2zS3pu8fe9KW.jpg">
 
-<link rel="canonical" href="http://yoursite.com/2020/03/23/hello-world/">
+<link rel="canonical" href="http://yoursite.com/2020/09/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861/">
 
 
 <script id="page-configurations">
@@ -45,7 +47,7 @@
   };
 </script>
 
-  <title>Hello World | 伍拾柒's blog</title>
+  <title>计算机系统原理知识梳理1 | 伍拾柒's blog</title>
   
 
 
@@ -152,7 +154,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/23/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://i.loli.net/2020/03/23/yQc92EIZXUBM4hs.jpg"">
@@ -165,7 +167,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          计算机系统原理知识梳理1
         </h1>
 
         <div class="post-meta">
@@ -174,8 +176,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-03-23 15:43:00" itemprop="dateCreated datePublished" datetime="2020-03-23T15:43:00+08:00">2020-03-23</time>
+              <time title="创建时间：2020-09-27 19:49:01 / 修改时间：20:32:34" itemprop="dateCreated datePublished" datetime="2020-09-27T19:49:01+08:00">2020-09-27</time>
             </span>
 
           
@@ -189,20 +192,33 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        <blockquote>
+<p>最近的计算机系统与原理课程涉及到了大量计算机组成架构的知识，于是决定对这些组成进行系统化地梳理，本次更新为主要针对冯诺依曼体系下的计算机组成架构及运行过程。</p>
+</blockquote>
+<p><strong><center>模型机的硬件基本结构</center></strong><br><img src="https://i.loli.net/2020/09/27/4sc2zS3pu8fe9KW.jpg" alt="1.jpg"></p>
+<h4 id="一、计算机的基本组成"><a href="#一、计算机的基本组成" class="headerlink" title="一、计算机的基本组成"></a>一、计算机的基本组成</h4><ol>
+<li>首先，现代计算机都是基于冯诺依曼体系下的计算机架构，即计算机由运算器、控制器、存储器、输入设备、输出设备5个基本部件组成。当代计算机的cpu通常既是运算器又是控制器。</li>
+<li>存储器中既能存储指令又能存储数据，分辨的方法有两种：一是分开储存，二是依靠cpu中的指令计算器。<h4 id="二、程序的执行过程"><a href="#二、程序的执行过程" class="headerlink" title="二、程序的执行过程"></a>二、程序的执行过程</h4></li>
+<li>根据pc取指令(<em>Program Counter</em>)</li>
+<li>指令译码</li>
+<li>修改pc的值</li>
+<li>取操作数</li>
+<li>指令执行</li>
+<li>回写结果</li>
+</ol>
+<h4 id="三、模型机硬件的介绍"><a href="#三、模型机硬件的介绍" class="headerlink" title="三、模型机硬件的介绍"></a>三、模型机硬件的介绍</h4><ol>
+<li>ALU算数逻辑部件：在操作控制信号ALUop的控制下，对输入的AB进行不同的运算得到结果F</li>
+<li>CU控制部件（控制器）：逐条取出指令并进行译码。</li>
+<li>GPRs通用寄存器组：临时存放主存取来的数据或运算结果。</li>
+<li>标志寄存器：存储ALU运算结果产生的标志信息，零标志ZF，符号标志SF。</li>
+<li>IR指令寄存器：临时存放从主存取来的指令。</li>
+<li>PC程序计数器：执行当前指令的过程中，自动计算出下一条指令的地址并送到pc中保存。</li>
+<li>CPU中央处理器：控制部件、运算部件和各类寄存器互连组成的电路。</li>
+<li>主存地址（主存单元地址）：主存中每个单元的编号。</li>
+<li>MAR主存地址寄存器：储存CPU送到地址线的主存地址。</li>
+<li>MDR主存数据寄存器：存放发送到或从数据线取出来的信息。</li>
+</ol>
+<h4 id="三、程序和指令的执行过程（未完待续）"><a href="#三、程序和指令的执行过程（未完待续）" class="headerlink" title="三、程序和指令的执行过程（未完待续）"></a>三、程序和指令的执行过程（未完待续）</h4>
     </div>
 
     
@@ -216,11 +232,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2020/03/24/Hello-My-Blog/" rel="next" title="Hello My Blog">
-      Hello My Blog <i class="fa fa-chevron-right"></i>
+    <a href="/2020/03/24/Hello-My-Blog/" rel="prev" title="Hello My Blog">
+      <i class="fa fa-chevron-left"></i> Hello My Blog
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -280,7 +296,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、计算机的基本组成"><span class="nav-number">1.</span> <span class="nav-text">一、计算机的基本组成</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、程序的执行过程"><span class="nav-number">2.</span> <span class="nav-text">二、程序的执行过程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、模型机硬件的介绍"><span class="nav-number">3.</span> <span class="nav-text">三、模型机硬件的介绍</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、程序和指令的执行过程（未完待续）"><span class="nav-number">4.</span> <span class="nav-text">三、程序和指令的执行过程（未完待续）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
